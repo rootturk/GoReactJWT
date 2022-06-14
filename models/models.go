@@ -7,6 +7,7 @@ type Topics struct {
 	Title         string
 	CreatedUserId uint
 	CategoryId    int
+	LastReplyDate time.Time
 	CreateDate    time.Time
 }
 

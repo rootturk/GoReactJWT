@@ -7,5 +7,5 @@ import (
 
 func Setup(app *fiber.App) {
 	app.Post("/api/login", controllers.Login)
-	app.Post("/api/topics", controllers.Login)
+	//app.Post("/api/topics", controllers.CreateNewTopic)
 }
